@@ -12,10 +12,12 @@
     <div class="container">
       <h1>Contact Me</h1>
       <nav class="site-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html" aria-current="page">Contact</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
       </nav>
     </div>
   </header>
@@ -61,13 +63,15 @@
 
     <h3>Send Me a Message</h3>
     <form action="#" method="post">
-      <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-      </div>
-      <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+      <div class="form-row">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
       </div>
       <div>
         <label for="message">Message:</label>

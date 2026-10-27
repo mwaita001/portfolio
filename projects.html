@@ -12,10 +12,12 @@
     <div class="container">
       <h1>My Projects</h1>
       <nav class="site-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html" aria-current="page">Projects</a>
-        <a href="contact.html">Contact</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
     </div>
   </header>
@@ -27,47 +29,61 @@
       as an ICT professional and aspiring web developer.
     </p>
 
-    <article class="card">
-      <span class="badge">In progress</span>
-      <h3>Project 1: Personal Portfolio Website</h3>
-      <img
-        src="images/img3.jpg"
-        alt="Website design displayed on a computer screen"
-        width="400"
-      />
-      <p>
-        A four-page website showcasing my background, skills, projects, and
-        contact information using HTML.
-      </p>
-    </article>
+    <div class="projects-grid">
+      <article class="card">
+        <span class="badge">In progress</span>
+        <img
+          src="images/img3.jpg"
+          alt="Website design displayed on a computer screen"
+          width="400"
+          loading="lazy"
+        />
+        <div class="card-content">
+          <h3>Project 1: Personal Portfolio Website</h3>
+          <p>
+            A four-page website showcasing my background, skills, projects, and
+            contact information using HTML.
+          </p>
+          <a href="#" class="button">View Project</a>
+        </div>
+      </article>
 
-    <article class="card">
-      <span class="badge">Planned</span>
-      <h3>Project 2: Computer Troubleshooting Guide</h3>
-      <img
-        src="images/img4.jpg"
-        alt="Computer hardware components used for maintenance"
-        width="400"
-      />
-      <p>
-        A beginner-friendly guide explaining common computer problems and
-        their possible solutions.
-      </p>
-    </article>
+      <article class="card">
+        <span class="badge">Planned</span>
+        <img
+          src="images/img4.jpg"
+          alt="Computer hardware components used for maintenance"
+          width="400"
+          loading="lazy"
+        />
+        <div class="card-content">
+          <h3>Project 2: Computer Troubleshooting Guide</h3>
+          <p>
+            A beginner-friendly guide explaining common computer problems and
+            their possible solutions.
+          </p>
+          <a href="#" class="button">View Project</a>
+        </div>
+      </article>
 
-    <article class="card">
-      <span class="badge">Planned</span>
-      <h3>Project 3: ICT Support Services Website</h3>
-      <img
-        src="images/img5.jpg"
-        alt="Technology team collaborating on a project"
-        width="400"
-      />
-      <p>
-        A planned website presenting computer maintenance, software
-        installation, and basic networking services.
-      </p>
-    </article>
+      <article class="card">
+        <span class="badge">Planned</span>
+        <img
+          src="images/img5.jpg"
+          alt="Technology team collaborating on a project"
+          width="400"
+          loading="lazy"
+        />
+        <div class="card-content">
+          <h3>Project 3: ICT Support Services Website</h3>
+          <p>
+            A planned website presenting computer maintenance, software
+            installation, and basic networking services.
+          </p>
+          <a href="#" class="button">View Project</a>
+        </div>
+      </article>
+    </div>
 
     <h2>Project Summary</h2>
     <table>
